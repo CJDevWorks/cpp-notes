@@ -1,32 +1,55 @@
 # Reference Collapsing
 
-With the introduction of rvalue references in C++11, there now exist scenarios
-where the compiler may deduce *references to references* (either rvalue or
-lvalue references, respectively):
+Pre-requirement :
+ 1. Template type-deduction rules (forward references)
+ 2. references to references are illegal in C++ (this restriction is not on compiler)
+ ```
+    int x =10;
+    auto& &rx=s; // illegal
+ ```
 
-~~~C++
+ But compiler may produce them in some context and then collapse them. reference collapsing rule:
+
+ ```
+    * If either reference is lvalue : result ==> lvalue
+    * if both reference rvalue : result ==> rvalue
+ ```
+
+This is the basis of how std::forward works. (conditional typecasting - if actual type passed to original function is
+rvalue then std::forward inside that function will typecast it to rvalue)
+
+Check - how std_forward_works
+
+#### Reference collapsing occurs in four contexts:
+
+- template instantiation : Discussed above
+
+- auto type generation : Same rule as template instantiation
+
+```
+class Widget {};
+Widget widgetFactory() { return Widget(); }  // function returning rvalue
 template<typename T>
-void f(T&& t)
-{
-	std::cout << t;
-}
-~~~
+void func(T&& param) {}
 
-Imagine now that this function is called with an lvalue reference object:
+Widget w;                // a variable (an lvalue)
+func(w);                 // call func with lvalue; T deduced to be Widget&
+func(widgetFactory());   // call func with rvalue; T deduced // to be Widget
 
-~~~C++
-int x = 5;
+auto&& w1 = w;   // lvalue
+auto&& w2 = widgetFactory(); // rvalue
+```
 
-f<int&>(x);
-~~~
+- decltype : Same rule as auto
 
-In this case, `T` is (explicitly) deduced as `int&`, meaning `f`'s parameter
-would be of type `int& &&`. However, the C++ language forbids references to
-references (e.g. `int& & y = x` is ill-formed). Also, what exactly should an
-rvalue reference to an lvalue reference signify? Very little. So, there exists a
-phenomenon called *reference collapsing*, by which the compiler will reduce
-references to references to simpler expressions under certain
-circumstances.
+- creation and use of typedefs and alias declarations,
 
-Reference collapsing is closely coupled with universal references (rvalue
-references in template contexts), which have the following semantics:
+```
+template<typename T>
+class Widget {
+public:
+  typedef T&& ColapsingRefTot;
+};
+
+Widget<int&> w; // in this case iys typedef int& ColapsingRefTot
+```

@@ -3,6 +3,7 @@
 (1) For contiguous-memory, sequence-based containers (vector, deque,
 string), use the erase-remove(-if)-idiom:
 
+```
 int main(int argc, char * argv [])
  {
      std::vector<int> vec(10);
@@ -41,9 +42,11 @@ the
      for (auto& i : vec) itr = i;
 
 }
+```
 
 (2) For std::list, use the remove and remove_if member function:
 
+```
 int main(int argc, char * argv [])
  {
      std::list<int> list(10);
@@ -74,9 +77,12 @@ int main(int argc, char * argv [])
      for (auto& i : list) itr = i;
 
 }
+```
 
 (3) For associative containers (std::map), walk the container:
+Note remove_if can't be applied.
 
+```
 int main(int argc, char * argv [])
  {
      std::map<int, int> map;
@@ -107,3 +113,25 @@ int main(int argc, char * argv [])
      for (auto& i : map) itr = i.second;
 
 }
+```
+
+C++98
+
+```
+map<string, SOME_TYPE>::iterator pm_it = port_map.begin();
+while(pm_it != port_map.end())
+{
+    if (pm_it->second == delete_this_id)
+    {
+        port_map.erase(pm_it++);  // Use iterator.
+                                  // Note the post increment.
+                                  // Increments the iterator but returns the
+                                  // original value for use by erase
+    }
+    else
+    {
+        ++pm_it;           // Can use pre-increment in this case
+                           // To make sure you have the efficient version
+    }
+}
+```

@@ -1,5 +1,6 @@
 # erasing-iterator-in-loop
 
+```
 std::vector<int> vec(100);
 
 for (std::vector<int>::iterator itr = vec.begin();
@@ -18,3 +19,5 @@ for (std::vector<int>::iterator itr = vec.begin();
      else ++itr;
 
 }
+
+```

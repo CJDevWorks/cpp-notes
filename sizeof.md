@@ -4,7 +4,9 @@
 its argument and not is:
 
 * If its argument is an *expression*, you don't need to use parantheses: `int x;
-  sizeof x;` is legal. However, `sizeof` has very high precedence (same as `&`
+  sizeof x;` is legal.
+
+* `sizeof` has very high precedence (same as `&`
   and `*`, lower than `.`), so `sizeof a + b` is really `sizeof(a) + b`.
 
 * If its argument is a *type*, you *do* need to put parantheses around it:

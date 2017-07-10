@@ -1,10 +1,9 @@
 # base-class-specific,-inherited-static-member
 
-If you want to make a certain static member part of an interface of a
-set of classes, meaning you would like to already include it
-in the (maybe abstract) base class’ declaration, but want the method to
-have a different definition for different derived classes, make the base
-class a template class and derive it with the type of the derived class:
+**if you want to define a static interface method/member  to
+have a different definition for different derived classes**,
+
+make the base class a template class and derive it with the type of the derived class:
 
 template<typename T>
 class Base
@@ -97,7 +96,6 @@ int main(int argc, char * argv [])
 Output:
 
 >>> 5     5
-
 >>> 5     5
 
 (the static member is shared by all derived classes)

@@ -18,25 +18,30 @@ you can get rid of the empty parameter list ‘()'
 
 This will basically move the pointer object into the data member ‘p’ of
 the closure class created from the lambda. In C++11, this was not
-possible. One workaround is to emulate the lambda by an explicit class
+possible.
+
+One workaround is to emulate the lambda by an explicit class
 as would be created from it:
 
+```
 class Lambda
  {
 public:
-using T = std::unique_ptr<int>;
-explicit Lambda(T&& t_) : t(std::forward<T>(t_)) { }
-int operator()() const { return *t + 5; }
-private:
-T t;
+    using T = std::unique_ptr<int>;
+    explicit Lambda(T&& t_) : t(std::forward<T>(t_)) { }
+    int operator()() const { return *t + 5; }
+    private:
+    T t;
  };
+
+
 int main(int argc, const char* argv[])
  {
-auto pointer = std::make_unique<int>(5);
-
-              auto lambda = Lambda(std::move(pointer));
-
+    auto pointer = std::make_unique<int>(5);             
+    auto lambda = Lambda(std::move(pointer));
 }
+
+```
 
 Another possibility is to emulate the move capture with a call to
 std::bind by
@@ -45,14 +50,13 @@ std::bind by
     std::bind
 2.  Giving the lambda a reference to the “captured” object
 
+```
 auto pointer = std::make_unique<int>(5);
 auto lambda = std::bind(
-
      [] (const std::unique_ptr<int>& p) { return *p + 5; },
-
      std::move(pointer)
-
 );
+```
 
 Thus, in conclusion:
 
@@ -67,17 +71,19 @@ Thus, in conclusion:
     they were in the closure.
 
 Note about mutability: By default, the call operator of a lambda is
-const, thus any captured by-value data-members are non-modifiable. That
-is why in the call to bind, we made the unique_ptr parameter const& (to
+const, thus any captured by-value data-members are non-modifiable. **That
+is why in the call to bind, we made the unique_ptr parameter const&** (to
 emulate that it would have been const if we passed it in the
-init-capture). If we wanted to emulate the unique-ptr being modifiable,
-we should have written:
+init-capture).
 
+If we wanted to emulate the unique-ptr being modifiable, we should have written:
+
+```
 auto lambda = std::bind(
       [] (/* non-const */ std::unique_ptr<int>& p) mutable { return *p +
 5; },
       std::move(pointer)
 
 );
-
+```
 

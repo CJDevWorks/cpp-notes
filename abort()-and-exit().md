@@ -8,7 +8,7 @@ will be called.  you can register a specific function / handler that is called w
 called. This function is set via std::atexit:
 
 - **abort** No destructors will be called. The abort() function's prototype is in cstdlib header
-file.std::abort() sends a SIGABRT signal.
+file.std::abort() sends a SIGABRT signal. Whether abort() flushes the buffers depends on the implementation.
 
 ```
 // Allocate some memory
@@ -46,13 +46,10 @@ void _exit(int status);
 Programs generally don't call _exit() directly, but instead call the exit() library function,
 which performs various actions before calling _exit().
 
-- what the exit() does are following:
+**what the exit() does are following**
  - The stdio stream buffers are flushed.
  - The _exit() system call is invoked, using the value supplied in status.
 
-In general, a process may terminate in two general ways:
- - abort() : Abnormal termination : Whether abort() flushes the buffers depends on the implementation.
- - exit() : A Normal termination using the _exit() system call.
 An explicit return of n from main() is generally equivalent to calling exit(n),
 since the run-time function that invokes main() uses the return value from main() in a call
 to exit().

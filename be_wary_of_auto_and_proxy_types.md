@@ -25,4 +25,6 @@ Thus, be sure to be wary about proxy types with auto, and static_cast
 them to get the underlying type directly (i.e. the
 _explicitly-typed-initializer idiom_):
 
+```
     auto flag = static_cast<bool>(flags()[1]);
+```

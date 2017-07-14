@@ -40,7 +40,7 @@ private:
 }
 ```
 
-3. Uniform initialization is also available when dealing with the distinction between direct and copy-initialization. Objects with explicit constructors may only be constructed via parentheses, or now also with braces (both direct initialization), but never with `=` (copy initialization):
+3. Uniform initialization is also available when dealing with the distinction between direct and copy-initialization. **Objects with explicit constructors may only be constructed via parentheses, or now also with braces (both direct initialization), but never with `=` (copy initialization):**
 
 ```C++
 std::unique_ptr<int> p(new int(5)); // OK
@@ -50,7 +50,7 @@ std::unique_ptr<int> p = new int(5); // not allowed (!)
 
 As one can see, uniform initialization is possible in all of these cases, while one of the other forms is not always allowed. Uniform initialization has other properties too:
 
-* It prevents narrowing conversions. In detail, if a constructor were called with an argument that had to be cast to the type of the constructor's argument, and that cast might be lossy, i.e. the original value may not be representable with that type, then braced-initialization will prevent such a constructor to be called. This feature was not introduced for the other initialization methods (for legacy-code reasons):
+* **It prevents narrowing conversions**. In detail, if a constructor were called with an argument that had to be cast to the type of the constructor's argument, and that cast might be lossy, i.e. the original value may not be representable with that type, then braced-initialization will prevent such a constructor to be called. This feature was not introduced for the other initialization methods (for legacy-code reasons):
 
 ```C++
 int x{1.0 + 2.0}; // Error, type 'double' cannot be narrowed to 'int'
@@ -73,7 +73,15 @@ While, of course, you should just not put any form of parentheses at all to call
 std::string s{}; // Same as: std::string s;
 ```
 
-However, there is one __major__ detriment to braces and it is `std::initializer_list`-related. If a class declares a constructor taking a `std::initializer_list`, it is __strongly__ favored over other constructors. If there is *any* way to convert types to make the constructor taking a `std::initializer_list` the best match, the compiler __will__ interpret the code as such. More precisely, it will not shy away from any type-conversions, even considering class' implicit conversion-operators, to try to convert the arguments of the brace-list to the type of the `std::initializer_list`. The compiler will even go as far as to ignore constructors with *exact-match* arguments in favor of picking a constructor with an extremely odd and bad-match initializer list, just to find out that the conversion that would work outside of the context of uniform initialization (the braces), is not allowed in the braces because it is a narrowing-conversion, upon which it will throw an exception *rather than picking the best-match constructor*.
+However, there is one __major__ detriment to braces and it is `std::initializer_list`-related.
+
+If a class declares a constructor taking a `std::initializer_list`, it is __strongly__ favored over other constructors.
+
+If there is *any* way to convert types to make the constructor taking a `std::initializer_list` the best match, the compiler __will__ interpret the code as such.
+
+More precisely, it will not shy away from any type-conversions, even considering class' implicit conversion-operators, to try to convert the arguments of the brace-list to the type of the `std::initializer_list`.
+
+The compiler will even go as far as to ignore constructors with *exact-match* arguments in favor of picking a constructor with an extremely odd and bad-match initializer list, just to find out that the conversion that would work outside of the context of uniform initialization (the braces), is not allowed in the braces because it is a narrowing-conversion, upon which it will throw an exception *rather than picking the best-match constructor*.
 
 ```C++
 struct Foo
@@ -124,12 +132,37 @@ Foo bar{foo}; // Calls (1) !!
 Foo baz{std::move(foo)}; // Calls (1) !!
 ```
 
-There are two more pieces of information:
-1. By convention/standard, empty braces call the constructor taking no arguments, and not one taking a `std::initializer_list` (else the whole most-vexing-parse story would be even more vexing). To pass an empty initializer-list to the constructor taking a `std::initializer_list`, wrap the empty braces in parentheses or braces: `std::vector({})` or `std::vector{{}}`.
-2. It can be hard to decide which constructor to call in a forwarding template class. E.g. if you have a factory method, which initialization is better? Did the user expect braces or parantheses? `std::unique_ptr` had this problem, and they picked parentheses, which they document.
+There are three  more pieces of information:
+1. By convention/standard, empty braces call the constructor taking no arguments, and not one taking a `std::initializer_list` (else the whole most-vexing-parse story would be even more vexing).
+
+To pass an empty initializer-list to the constructor taking a `std::initializer_list`, wrap the empty braces in parentheses or braces: `std::vector({})` or `std::vector{{}}`.
+
+2. Following two has completely different meaning.
+
+std::vector<int> v(10,20);
+std::vector<int> v{10,20}
+
+2. It can be hard to decide which constructor to call in a forwarding template class.
+
+E.g. if you have a factory method, which initialization is better? Did the user expect braces or parantheses? `std::unique_ptr` had this problem, and they picked parentheses, which they document.
+
+template<typename T, typename ...Ts>
+void doSomeThing(Ts&& ...params)
+{
+    // 1.
+    localObject(std::forward<Ts>(params));
+
+    // 2.
+    localObject{std::forward<Ts>(params)};
+
+}
+
+dosomething<std::vector<int>>(10,20);
+dosomething<std::vector<int>>{10,20};
 
 My rules:
 
 -   Use parentheses to call non-initializer-list constructors, unless
     braces are necessary to prevent a narrowing-conversion or to avoid the most vexing parse.
+
 -   Use braces exclusively for initializer-lists as well as for not specifying the type explicitly in a return statement or nested construction. (e.g. return {a, b}; for a pair)

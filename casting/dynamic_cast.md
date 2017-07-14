@@ -11,6 +11,7 @@ methods are accessed polymorphically. dynamic_cast is used to convert
 that pointer-to-Base to a pointer-to-Derived, so that you can access the
 “Derived"-part of the object as well.
 
+```
 struct Base
  {
      virtual void foo()
@@ -18,6 +19,7 @@ struct Base
          std::cout << "Base::foo()" << std::endl;
      }
  };
+
 struct Derived : public Base
  {
      virtual void foo() override
@@ -30,23 +32,16 @@ struct Derived : public Base
          std::cout << "Derived::bar()" << std::endl;
      }
  };
+ ```
+
 int main(int argc, char * argv [])
  {
-     Base* base = new Derived;
-    
+     Base* base = new Derived;   
      base->foo();
-
-   
-
-    base->bar() // fail
-
-   
-     Derived* derived = dynamic_cast<Derived*>(base);
-    
+     base->bar() // fail
+     Derived* derived = dynamic_cast<Derived*>(base);
      derived->foo();
-    
      derived->bar(); // now ok
-
 }
 
 Conditions:
@@ -60,6 +55,7 @@ Conditions:
     Run-Time Type Identification (RTTI) system, which lets the compiler
     figure out the dynamic type of an object, is not created for the
     object (dynamic_cast needs this system to perform its checks)
+
 -   Upcasts are allowed, if the cast object (the parameter) is of the
     type being cast to (<T>) or derived from it, since the type T has
     access to its own interface, and can access the “T”-part of any of

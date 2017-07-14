@@ -32,3 +32,17 @@ Note the last comment: nullptr is of std::nullptr_t, which implicitly
 converts to all pointer types.
 
 
+The **macro NULL is an implementation-defined null pointer constant**, which may be
+- an integral constant expression rvalue of integer type that evaluates to zero
+
+- an integer literal with value zero, or a prvalue of type std::nullptr_t
+
+```
+#define NULL 0
+//since C++11
+#define NULL nullptr
+```
+
+typedef decltype(nullptr) nullptr_t;
+
+There exist implicit conversions from nullptr to null pointer value of any pointer type and any pointer to member type. Similar conversions exist for any null pointer constant, which includes values of type std::nullptr_t as well as the macro NULL.

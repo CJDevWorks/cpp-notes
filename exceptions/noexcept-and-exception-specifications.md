@@ -1,7 +1,7 @@
 # Noexcept and Exception Specifications
 
 It is possible to specify whether and what exceptions a function may
-throw. While a now deprecated feature, one could formerly specify exceptions of
+throw. While a now deprecated feature(because its confusing), one could formerly specify exceptions of
 a function like so:
 
 void foo() throw();
@@ -9,7 +9,12 @@ void foo() throw();
 void bar() throw(std::runtime_error);
 
 However, this lead to certain problems and is thus no longer
-supported. Nevertheless, in C++11 you can still specify that a function will not
+supported.
+
+what Issues ???
+
+
+Nevertheless, in C++11 you can still specify that a function will not
 throw any exception (nothrow guarantee):
 
 void foo() noexcept;
@@ -36,6 +41,7 @@ the following:
 * Strive to write your move overloads in such a way that they cannot throw
   exceptions. That is often trivial, because move semantics typically do no more
   than exchange pointers and resource handles between two objects.
+
 * If you succeeded in not throwing exceptions from your overloads, then make
   sure to advertise that fact using the new noexcept keyword.
 

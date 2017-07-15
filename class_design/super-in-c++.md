@@ -2,22 +2,23 @@
 
 Just use a typedef/alias!!!!!!
 
+```
 class Base
- {
+{
 public:
-void foo()
- {
- }
- };
+    void foo()
+    {
+    }
+};
 class Derived : public Base
- {
+{
 public:
-using super = Base;
- Derived()
- {
-super::foo();
- }
+    using super = Base;
+    Derived()
+    {
+        super::foo();
+    }
 
 };
-
+```
 

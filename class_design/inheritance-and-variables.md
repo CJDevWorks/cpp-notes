@@ -9,25 +9,29 @@ derived version (when pointing to an object of type derived), i.e.
 variables are bound statically (early, at compile-time) and not
 dynamically (late, at run-time).
 
+```
 struct A
- {
-int x = 5;
- };
+{
+    int x = 5;
+};
+
 struct B : public A
- {
-int x = 12;
- };
+{
+    int x = 12;
+};
+
 int main(int argc, char * argv[])
- {
-A a;
-print(a.x); // 5
-B b;
-print(b.x); // 12
-A* ptr = new A;
-print(ptr->x); // 5
-delete ptr;
- ptr = new B;
-print(ptr->x); // 5
-delete ptr;
+{
+    A a;
+    print(a.x); // 5
+    B b;
+    print(b.x); // 12
+    A* ptr = new A;
+    print(ptr->x); // 5
+    delete ptr;
+    ptr = new B;
+    print(ptr->x); // 5
+    delete ptr;
 
 }
+```

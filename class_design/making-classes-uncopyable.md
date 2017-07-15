@@ -88,29 +88,33 @@ constructor, which is, however, private, so Foo wouldn’t have access and
 copying a Foo object would create a compile-time error!
 
 C++11:
-
 class Uncopyable
 
+```
 class Uncopyable
- {
+{
 public:
- Uncopyable(int x = 0)
- : _x(x)
- { }
- Uncopyable(const Uncopyable& other) = delete;
- Uncopyable(Uncopyable&& other);
-Uncopyable& operator=(const Uncopyable& a) = delete;
+    Uncopyable(int x = 0) : _x(x)
+    {}
+
+    Uncopyable(const Uncopyable& other) = delete;
+    Uncopyable(Uncopyable&& other);
+    Uncopyable& operator=(const Uncopyable& a) = delete;
+
 private:
-int _x;
- };
+    int _x;
+};
+
 int main(int argc, char * argv[])
- {
-Uncopyable a(5); // OK, not a deleted overload of Uncopyable()
-Uncopyable b(a); // Error: Call to deleted constructor of Uncopyable
-Uncopyable c(std::move(a)); // OK, not a deleted overload of
-Uncopyable()
- c = a; // Error: Overload resolution selected deleted operator '='
+{
+    Uncopyable a(5); // OK, not a deleted overload of Uncopyable()
+    Uncopyable b(a); // Error: Call to deleted constructor of Uncopyable
+    Uncopyable c(std::move(a)); // OK, not a deleted overload of
+    Uncopyable()
+    c = a; // Error: Overload resolution selected deleted operator '='
 
 }
+
+```
 
 

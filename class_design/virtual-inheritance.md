@@ -11,42 +11,31 @@ Virtual inheritance tells the compiler that only one tier 1 base class
 should be used in the hierarchy. The tier 3 class must initialize both
 tier 2 classes (as always) and the tier 1 base class.
 
-Class Tier1
-
+```
+class Tier1
 {
-
 public:
-
      void foo();
-
 };
 
 class Tier2A : VIRTUAL public Tier1
-
 {};
 
 class Tier2B : VIRTUAL public Tier1
-
 {};
 
 class Tier3 : public Tier2A, public Tier2B
-
 {
-
 public:
-
      Tier3()
-
-     : Tier1(), Tier2A, Tier2B // INITIALIZE ALL BASE CLASSES IN THE
+        : Tier1(), Tier2A, Tier2B // INITIALIZE ALL BASE CLASSES IN THE
 HIERACHY
-
      { }
-
 };
 
 Tier3 object;
-
 object.foo(); // OK!
+```
 
 Note that this is expensive and should only be done if no other options
 are available.

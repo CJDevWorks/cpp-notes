@@ -13,6 +13,7 @@
 // resource management
 // special member function generation
 // exceptions
+
 class Base
 {
     std::string name_;

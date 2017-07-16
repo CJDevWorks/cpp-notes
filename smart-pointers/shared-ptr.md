@@ -10,10 +10,13 @@ As mentioned, `shared_ptr`s store meta-information such as the *reference-count*
 
 `std::shared_ptr`
 [ T* ] ------------------ [Object]
+
+
 [ ControlBlock* ]
     |
     |
     |
+
 [ Reference Count ]
 [ Weak Count      ]  <-- Control Block
 [ Custom Deleter  ]
@@ -30,6 +33,18 @@ Such a control-block is allocated for every new object, i.e. when:
 * `shared_ptr`s are twice the size of a raw pointer, i.e. two words. They store one pointer to the shared resource and another pointer to a control-block, containing the reference-count, the weak-count (how many `std::weak_ptr`s point to the object) as well as other data such as custom deleters and allocators.
 
 * Memory for the reference-count (i.e. the control-block) must be dynamically allocated. However, when you use `std::maked_shared`, the cost of this allocation can be avoided, as `std::make_shared` allocates memory for the object as well as for the control-block in one allocation.
+
+
+* **It is crucial that you always only have one control-block per object**. Multiple control-blocks mean multiple reference-counts, which in turn result in multiple deletions, where already more than one results in undefined behavior. Thus, it is a bad idea to construct `shared_ptr`s from pointers stored in variables, because you could create two `shared_ptr`s:
+
+```C++
+auto p = new T;
+
+std::shared_ptr<T> a(p); // first control-block, OK
+std::shared_ptr<T> b(p); // second control-block, BAD!!
+```
+
+Therefore, you should prefer using `std::make_shared`, if you need no custom deleter, or `new`-ing the variable right in the constructor if you do need to pass custom-deleter.
 
 * Manipulation of the reference-count must be atomic. Multiple threads may try to increment or decrement (i.e. read and write) the count "at the same time", so this operation must be synchronized. This is one problem of `std::shared_ptr`, as atomic operations are usually more expensive than non-atomic ones.
 
@@ -58,16 +73,6 @@ std::unique_ptr<T, decltype(d2)> b(new T, d2);
 std::vector<std::unique_ptr<T, ???>>
 ```
 
-* One very important note to make about `shared_ptr`s is that it is crucial that you always only have one control-block per object. Multiple control-blocks mean multiple reference-counts, which in turn result in multiple deletions, where already more than one results in undefined behavior. Thus, it is a bad idea to construct `shared_ptr`s from pointers stored in variables, because you could create two `shared_ptr`s:
-
-```C++
-auto p = new T;
-
-std::shared_ptr<T> a(p); // first control-block, OK
-std::shared_ptr<T> b(p); // second control-block, BAD!!
-```
-
-Therefore, you should prefer using `std::make_shared`, if you need no custom deleter, or `new`-ing the variable right in the constructor if you do need to pass custom-deleter.
 
 * If you want to construct `shared_ptr`s from the `this`-pointer, you inherit your class `T` from `std::enable_shared_from_this<T>`. You can then call `shared_from_this()` to create a `shared_ptr` from within the class. The point is that you want to prevent creating new control-blocks if `shared_ptr`s outside the class already have control-blocks for the object. `shared_from_this` will modify a control-block that already exists for the object (this information about the control-block is stored in `enable_shared_from_this`). However, if there exists no previous control-block, `shared_from_this` will throw an exception. It's thus a good idea to declare constructors in such a class private and rely only on public factory functions:
 

@@ -49,7 +49,7 @@ interfaces for subscript, cc, mc,  ca, ma
 
 - strings, vector, arrays are better alternatives but in case of levacy system integration where the incoming data is char*
 
-Why unique_ptr should have the deleter as part ofinterface and not implicit tyoe erasure as in Smart_ptr
+Why unique_ptr should have the deleter as part of interface and not implicit type erasure as in Smart_ptr
 
 
 ```

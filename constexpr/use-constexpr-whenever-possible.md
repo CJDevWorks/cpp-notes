@@ -50,6 +50,7 @@ attributes of constexpr functions, which differ between C++11 and C++14:
             conditional statements.
     -   When a member function, always makes it const.
     -   Cannot return void (because void is not a LiteralType in C++11).
+
 -   C++14
     -   Can contain anything
     -   Can return anything, including void
@@ -76,10 +77,10 @@ return result;
 
 }
 
-Also user-defined types can be made LiteralType and used at
-compile-time, when their constructor is declared constexpr:
+**`Also user-defined types can be made LiteralType and used at
+compile-time, when their constructor is declared constexpr`**:
 
-template<typename T = std::size_t>
+**template<typename T = std::size_t>
 class Point
  {
 public:
@@ -91,7 +92,7 @@ private:
  T _x;
  T _y;
 
-};
+};**
 
 Now, you can declare a Point that is known at compile-time:
 
@@ -104,27 +105,33 @@ function const, because starting with C++11 const is no longer implicit
 through constexpr (which is the case for C++11, but doesn’t hurt to
 overspecify):
 
+```
 template<typename T = std::size_t>
 class Point
  {
 public:
 constexpr Point(const T& x, const T& y) noexcept
- : _x(x)
- , _y(y)
+    : _x(x)
+    , _y(y)
+
  { }
-constexpr const T& x() const noexcept
- {
-return _x;
- }
-constexpr const T& y() const noexcept
- {
-return _y;
- }
+
+    constexpr const T& x() const noexcept
+     {
+        return _x;
+     }
+
+    constexpr const T& y() const noexcept
+     {
+        return _y;
+     }
+
 private:
  T _x;
  T _y;
 
 }; 
+```
 
 Now you can have a constexpr function use such a point at compile-time,
 for example to compute the mid-point:
@@ -152,38 +159,38 @@ constexpr auto middle = midpoint(point_1, point_2);
 Lastly, in C++14 it is no longer the case that constexpr functions are
 implicitly const, thus even the setters can be constexpr:
 
-template<typename T = std::size_t>
-class Point
- {
-public:
-constexpr Point(const T& x, const T& y) noexcept
- : _x(x)
- , _y(y)
- { }
-constexpr const T& x() const noexcept
- {
-return _x;
- }
-constexpr const T& y() const noexcept
- {
-return _y;
- }
+    template<typename T = std::size_t>
+    class Point
+    {
+    public:
+    constexpr Point(const T& x, const T& y) noexcept
+    : _x(x)
+    , _y(y)
+    { }
+    constexpr const T& x() const noexcept
+    {
+    return _x;
+    }
+    constexpr const T& y() const noexcept
+    {
+    return _y;
+    }
 
-constexpr void x(const T& new_x) noexcept
- {
- _x = new_x;
- }
-constexpr void y(const T& new_y) noexcept
- {
- _y = new_y;
+    constexpr void x(const T& new_x) noexcept
+    {
+    _x = new_x;
+    }
+    constexpr void y(const T& new_y) noexcept
+    {
+    _y = new_y;
 
-}
+    }
 
-private:
- T _x;
- T _y;
+    private:
+    T _x;
+    T _y;
 
-};
+    };
 
 Meaning you can really do totally awesome compile-time things:
 

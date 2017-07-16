@@ -36,24 +36,24 @@ A CONSTEXPR FUNCTION must satisfy the following requirements:
 -   the function body must be either deleted or defaulted or contain
     only the following:
 
--   null statements
--   static_assert declarations
--   typedef declarations and alias declarations that do not define
-    classes or enumerations
--   using declarations
--   using directives
--   exactly one return statement.
+    -   null statements
+    -   static_assert declarations
+    -   typedef declarations and alias declarations that do not define
+        classes or enumerations
+    -   using declarations
+    -   using directives
+    -   exactly one return statement.
 
 (until C++14)
 -   the function body must be either deleted or defaulted or contain ANY
     STATEMENTS EXCEPT:
 
--   an asm declaration
--   a goto statement
--   a try-block
--   a definition of a variable of non-literal type
--   a definition of a variable of static or thread storage duration
--   a definition of a variable for which no initialization is performed.
+    -   an asm declaration
+    -   a goto statement
+    -   a try-block
+    -   a definition of a variable of non-literal type
+    -   a definition of a variable of static or thread storage duration
+    -   a definition of a variable for which no initialization is performed.
 
 The return types of a constexpr function can only be a LiteralType,
 which includes:

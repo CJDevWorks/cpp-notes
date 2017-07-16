@@ -24,9 +24,9 @@ As mentioned, `shared_ptr`s store meta-information such as the *reference-count*
 
 Such a control-block is allocated for every new object, i.e. when:
 
-* you call `std::make_shared` (always constructs new object)
-* you construct a `std::shared_ptr` from `std::unique_ptr` (`shared_ptr` assumes ownership)
-* you create a `std::shared_ptr` from a raw pointer
+* you call `std::make_shared` (always constructs new object - memory allocated together, no custom deleter)
+* you construct a `std::shared_ptr` from `std::unique_ptr` (`shared_ptr` assumes ownership) (allocate controlblock)
+* you create a `std::shared_ptr` from a raw pointer (allocate a controll block)
 
 ## Information
 
@@ -48,7 +48,7 @@ Therefore, you should prefer using `std::make_shared`, if you need no custom del
 
 * Manipulation of the reference-count must be atomic. Multiple threads may try to increment or decrement (i.e. read and write) the count "at the same time", so this operation must be synchronized. This is one problem of `std::shared_ptr`, as atomic operations are usually more expensive than non-atomic ones.
 
-* Move-operations are virtually free, or at least a lot cheaper than copy-operations, as moving one `shared_ptr` into another just means assigning the pointer of the source `shared_ptr` to the pointer of the destination `shared_ptr`, and setting the pointer in the source `shared_ptr` to null. The reference-count need not be incremented or decremented (atomically), because you are just "moving the pointer from one container to another".
+* **Move-operations are virtually free, or at least a lot cheaper than copy-operations**, as moving one `shared_ptr` into another just means assigning the pointer of the source `shared_ptr` to the pointer of the destination `shared_ptr`, and **setting the pointer in the source `shared_ptr` to null**. The **reference-count need not be incremented or decremented** (atomically), because you are just "moving the pointer from one container to another".
 
 * `shared_ptr` can be constructed from `std::unique_ptr`, but not vice-versa. That's why `std::unique_ptr` is such a great choice for return-types of factory functions, because you can assign the result to either a `shared_ptr` or a `unique_ptr`.
 
@@ -77,7 +77,7 @@ std::vector<std::unique_ptr<T, ???>>
 * If you want to construct `shared_ptr`s from the `this`-pointer, you inherit your class `T` from `std::enable_shared_from_this<T>`. You can then call `shared_from_this()` to create a `shared_ptr` from within the class. The point is that you want to prevent creating new control-blocks if `shared_ptr`s outside the class already have control-blocks for the object. `shared_from_this` will modify a control-block that already exists for the object (this information about the control-block is stored in `enable_shared_from_this`). However, if there exists no previous control-block, `shared_from_this` will throw an exception. It's thus a good idea to declare constructors in such a class private and rely only on public factory functions:
 
 ```C++
-class Foo : public std::enable_shared_from_this
+class Foo : public std::enable_shared_from_this<Foo>
 {
 public:
 
@@ -90,6 +90,45 @@ public:
 private:
 
 	Foo() { }
+}
+```
+
+enable_shared_from_this<T> has a weak_ptr<T> data member. The shared_ptr<T> constructor can detect if T is derived from enable_shared_from_this<T>. If it is, the shared_ptr<T> constructor will assign *this (which is the shared_ptr<T>) to the weak_ptr data member in enable_shared_from_this<T>. shared_from_this() can then create a shared_ptr<T> from the weak_ptr<T>.
+
+Example of a possible implementation:
+```
+template<class D>
+class enable_shared_from_this {
+protected:
+    constexpr enable_shared_from_this() { }
+    enable_shared_from_this(enable_shared_from_this const&) { }
+    enable_shared_from_this& operator=(enable_shared_from_this const&) {
+        return *this;
+    }
+
+public:
+    shared_ptr<T> shared_from_this() { return self_.lock(); }
+    shared_ptr<T const> shared_from_this() const { return self_.lock(); }
+
+private:
+    weak_ptr<D> self_;
+
+    friend shared_ptr<D>;
+};
+
+template<typename T>
+shared_ptr<T>::shared_ptr(T* ptr) {
+    // ...
+    // Code that creates control block goes here.
+    // ...
+
+    // NOTE: This if check is pseudo-code. Won't compile. There's a few
+    // issues not being taken in to account that would make this example
+    // rather noisy.
+    if (is_base_of<enable_shared_from_this<T>, T>::value) {
+        enable_shared_from_this<T>& base = *ptr;
+        base.self_ = *this;
+    }
 }
 ```
 

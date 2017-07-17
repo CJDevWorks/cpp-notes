@@ -1,8 +1,9 @@
 # abstract-classes-without-pure-virtual-methods
 
 
-If you want a class without pure virtual functions to be solely an
-abstract class, make the destructor pure virtual:
+If you want a class without pure virtual functions to be solely an abstract class,
+
+make the destructor pure virtual:
 
 class Base
 {
@@ -12,10 +13,17 @@ public:
 };
 
 I.e.: you want a base class for inheritance/polymorphism but don't want
-the base class to be instantiateable. 
+the base class to be instantiateable.  That way, giving it a pure virtual function makes
+it an abstract class.
 
-That way, giving it a pure virtual function makes it an abstract class.
+- Do you need to implement its destructor ??
 However, you must implement that destructor somewhere, as the compiler
 will call it when a derived class’ destructor is called. 
+
+- Can that be private??
+  No. Derived destructor cant access.
+
+
+
 
 

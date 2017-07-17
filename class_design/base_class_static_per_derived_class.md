@@ -21,25 +21,19 @@ class DerivedB : public Base
 int main(int argc, char * argv [])
  {
      DerivedA::x = 2;
-    
      DerivedA a, b;
-    
      DerivedB::x = 5;
-    
      DerivedB c, d;
-
    
-
-    std::cout << a.x << "\t" << b.x << std::endl;
-    
+     std::cout << a.x << "\t" << b.x << std::endl; 
      std::cout << c.x << "\t" << d.x << std::endl;
-
 }
 ```
 Output:
-
+```
 >>> 5     5
 >>> 5     5
+```
 
 (the static member is shared by all derived classes)
 
@@ -77,26 +71,22 @@ class DerivedB : public Base<DerivedB>
 int main(int argc, char * argv [])
  {
      DerivedA::x = 2;
-    
      DerivedA a, b;
-    
      DerivedB::x = 5;
-    
      DerivedB c, d;
     
      // Both have their own static version of x
      std::cout << a.x << "\t" << b.x << std::endl;
-    
      std::cout << c.x << "\t" << d.x << std::endl;
-
 }
 ```
 
 Output:
-
+```
 >>> 2     2
 
 >>> 5     5
+```
 
 This way, a new version of Base’s declaration is instantiated for each
 Derived class (compile-time polymorphism), so that Derived inherits its

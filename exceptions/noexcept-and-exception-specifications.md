@@ -13,9 +13,16 @@ supported.
 
 what Issues ???
 
+```
+**Run-time checking**: C++ exception specifications are checked at runtime rather than at compile time, so they offer no programmer guarantees that all exceptions have been handled. The run-time failure mode (calling std::unexpected()) does not lend itself to recovery.
 
-Nevertheless, in C++11 you can still specify that a function will not
-throw any exception (nothrow guarantee):
+
+**Run-time overhead**: Run-time checking requires the compiler to produce additional code that also hampers optimizations.
+
+**Unusable in generic code:** Within generic code, it is not generally possible to know what types of exceptions may be thrown from operations on template arguments, so a precise exception specification cannot be written.
+
+In practice, only two forms of exception-throwing guarantees are useful: an operation might throw an exception (any exception) or an operation will never throw any exception.
+```
 
 void foo() noexcept;
 
@@ -53,6 +60,8 @@ being relocated to the new memory block. But that won't happen unless both
 of 1. and 2. above are satisfied.
 
 http://thbecker.net/articles/rvalue_references/section_09.html
+
+
 
 When you declare a method noexcept, the compiler can make certain optimizations
 that would not be possible with a C++98 throw() declaration or no exception

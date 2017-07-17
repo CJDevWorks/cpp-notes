@@ -54,7 +54,9 @@ static_cast, aside from manipulating pointers to classes,
 can also be used to perform conversions explicitly defined in classes, as well as to perform standard conversions between fundamental types:
 double d=3.14159265;
 int i = static_cast<int>(d);
-dynamic_cast
+
+
+**dynamic_cast**
 
 dynamic_cast is exclusively used with pointers and references to objects. It allows any type-casting that can be implicitly performed as well as the inverse one when used with polymorphic classes, however, unlike static_cast, dynamic_cast checks, in this last case, if the operation is valid. That is to say, it checks if the casting is going to return a valid complete object of the requested type.
 Checking is performed during run-time execution. If the pointer being casted is not a pointer to a valid complete object of the requested type, the value returned is a NULL pointer.

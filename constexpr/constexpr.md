@@ -4,15 +4,18 @@ A constexpr declaration for a variable or function indicates that the
 compiler should evaluate the expression at compile time. For this, it
 must follow certain rules:
 
-“The constexpr specifier declares that it is possible to evaluate the
+
+The constexpr specifier declares that it is possible to evaluate the
 value of the function or variable at compile time. Such variables and
 functions can then be used where only compile time constant
 expressions are allowed (provided that appropriate function arguments
-are given). A constexpr specifier used in an object declaration
-implies const. A constexpr specifier used in an function declaration
-implies inline."
+are given).
 
-A CONSTEXPR VARIABLE must satisfy the following requirements:
+- **A constexpr specifier used in an object declaration
+implies const. A constexpr specifier used in an function declaration
+implies inline.**
+
+**A CONSTEXPR VARIABLE** must satisfy the following requirements:
 
 -   its type must be a LiteralType. (A “literal” is a constant value)
 -   it must be immediately constructed or assigned a value.
@@ -20,10 +23,10 @@ A CONSTEXPR VARIABLE must satisfy the following requirements:
     only literal values, constexpr variables and functions.
 -   the constructor used to construct the object (either implicit
     or explicit) must satisfy the requirements of constexpr constructor.
-    In the case of explicit constructor, it must
-    have constexpr specified.
 
-A CONSTEXPR FUNCTION must satisfy the following requirements:
+    In the case of explicit constructor, it must have constexpr specified.
+
+**A CONSTEXPR FUNCTION ** must satisfy the following requirements:
 
 -   it must not be virtual
 -   its return type must be LiteralType

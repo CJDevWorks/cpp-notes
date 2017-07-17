@@ -14,3 +14,6 @@ catch(...)
 throw; // throw std::runtime_error("asdf");
 
 }
+
+- catch(...)
+   is catch all.

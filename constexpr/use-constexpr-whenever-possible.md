@@ -15,36 +15,33 @@ that while constexpr means const, const does not mean constexpr, i.e.
 you will not _necessarily_ be able to do these things with const
 objects:
 
+```
 constexpr int x = 5;
- std::array<std::string, x> array; // OK
-
+std::array<std::string, x> array; // OK
 double doubles[x]; // OK
+```
 
 But:
 
+```
 int x = 5;
-
 const int y = x;
-
 std::array<std::string, y> array; // Error, y is not known (even though
 const -> not constexpr!)
+```
 
-FOR FUNCTIONS:
+**FOR FUNCTIONS:**
 
 A vital thing is that constexpr functions have two faces:
 
--   When called with constexpr arguments, it produces a
-    constexpr result.
+-   When called with constexpr arguments, it produces a constexpr result.
 -   Else it acts as a normal function.
 
-This is fantastic, because it means that you can declare a function
-constexpr without any loss in functionality from before, while _only
-adding functionality_ for the constexpr-arguments case. There are a few
-attributes of constexpr functions, which differ between C++11 and C++14:
+
+There are a few attributes of constexpr functions, which differ between C++11 and C++14:
 
 -   C++11
-    -   Can contain only one single statement, which returns a
-        value. However this function may:
+    -   Can contain only one single statement, which returns a value. However this function may:
         -   Use recursion to replace loops.
         -   Use the ternary operator (?:) to replace
             conditional statements.

@@ -1,15 +1,9 @@
 # decltype(x)-vs-decltype((x))
 
 decltype(x) and decltype((x)) will not always result in the same type
-declaration. The reason why is that decltype(x) where x is an object of
-type ’Type’ accessed through member notation will result in the type
-being ’Type’ and not ’Type&’, even though object.member always returns a
-reference to that member. If you, however, put the object in
-parentheses, i.e. decltype((x)) or decltype((object.member)) or
-decltype((pointer->member)), then this automatic deduction does not take
-place and x is treated as an ordinary expression. the type of
-this expression is Type&, so the compiler won’t do any magic to turn it
-into Type.
+declaration.
+
+for lvalue expression of type T other than names, decltype always reports a type of T&
 
 ```C++
 int main(int argc, char * argv[])

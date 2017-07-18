@@ -21,6 +21,8 @@ The reference object, however, will still point to the word where the
 relevant bit was stored in the now-deleted object, meaning you end up
 with a dangling reference/pointer!
 
+**Solution** **explicitly typed initializer idiom**
+
 Thus, be sure to be wary about proxy types with auto, and static_cast
 them to get the underlying type directly (i.e. the
 _explicitly-typed-initializer idiom_):
@@ -28,3 +30,23 @@ _explicitly-typed-initializer idiom_):
 ```
     auto flag = static_cast<bool>(flags()[1]);
 ```
+
+**Other Proxy Classes**
+
+Expression Templates (Matrix class)
+
+auto sum = static_cast<Matrix>(m1 + m2 + m3 + m4);
+
+**explicitly typed initializer idiom**
+
+```
+double calcEpsilon()  // return tolerance value
+{
+  return 1.0;
+}
+ // if conversion is desired
+ float ep = calcEpsilon();  // implicitly convert // double -> float
+
+ // explicitly typed initializer idiom
+ auto ep = static_cast<float>(calcEpsilon());
+ ```

@@ -1,4 +1,5 @@
-//
-// Created by Chandrajeet Singh on 15/7/17.
-//
+/*
+ * std::stack ::==> the adapter is deque
+ * why ?? operation is on one end
+ */
 

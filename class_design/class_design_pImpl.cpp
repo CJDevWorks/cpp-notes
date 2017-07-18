@@ -1,4 +1,7 @@
 #include <iostream>
+#include <vector>
+#include <string>
+#include <memory>
 
 // Requirement.
 // explicit constructor and explicit operator
@@ -18,7 +21,7 @@ class MyPImpl
 {
     struct Impl;
     using PImpl = std::unique_ptr<Impl> ;
-    Pimpl impl_;
+    PImpl impl_;
 
 public:
     MyPImpl();

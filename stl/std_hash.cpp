@@ -34,6 +34,7 @@ _Cxx_hashtable_define_trivial_hash(char)
 
 */
 #include <functional>
+#include <string>
 
 class A {
 public:
@@ -69,5 +70,4 @@ int main (int argc , char *argv[]) {
     A a (5 , "a");
     std::hash<A> hash;
     print (hash (a));
-
 }

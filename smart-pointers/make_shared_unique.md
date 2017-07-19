@@ -59,7 +59,7 @@ auto spA(std::make_shared<A>()); --> needs one resource allocation, combined for
 
 1) Cannot use custom deleters (make_unique/make_shared)
 2) When braced initilizer is passed as argument the make function iternaly make this a paranthesis.
-So if that impacts different constructor getting called dont use it. Use auto type deduction to create astd::initializer list and then pass it to make on it.
+So if that impacts different constructor getting called dont use it. Use auto type deduction to create a std::initializer list and then pass it to make on it.
 
 **make_shared only** -
 

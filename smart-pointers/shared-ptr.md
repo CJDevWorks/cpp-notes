@@ -74,7 +74,7 @@ std::vector<std::unique_ptr<T, ???>>
 ```
 
 
-* If you want to construct `shared_ptr`s from the `this`-pointer, you inherit your class `T` from `std::enable_shared_from_this<T>`. You can then call `shared_from_this()` to create a `shared_ptr` from within the class. The point is that you want to prevent creating new control-blocks if `shared_ptr`s outside the class already have control-blocks for the object. `shared_from_this` will modify a control-block that already exists for the object (this information about the control-block is stored in `enable_shared_from_this`). However, if there exists no previous control-block, `shared_from_this` will throw an exception. It's thus a good idea to declare constructors in such a class private and rely only on public factory functions:
+* If you want to construct `shared_ptr`s from the `this`-pointer, you inherit your class `T` from `std::enable_shared_from_this<T>`. You can then call `shared_from_this()` to create a `shared_ptr` from within the class. The point is that you want to prevent creating new control-blocks if `shared_ptr`s outside the class already have control-blocks for the object. `shared_from_this` will modify a control-block that already exists for the object (this information about the control-block is stored in `enable_shared_from_this`). **However, if there exists no previous control-block, `shared_from_this` will throw an exception. It's thus a good idea to declare constructors in such a class private and rely only on public factory functions**:
 
 ```C++
 class Foo : public std::enable_shared_from_this<Foo>

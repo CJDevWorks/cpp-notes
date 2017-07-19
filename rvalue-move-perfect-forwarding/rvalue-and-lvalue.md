@@ -9,7 +9,6 @@ e.g. non-reference object return value of a function, or intermediary objects 
 - Also literals (5, ‘A’, false) are rvalues.
 
 - An rvalue may be assigned to an lvalue.
-- rvalue cant tak etake any other  rvalue or lvalue.
 
 ================BINDINGS================
 * lvalue ==> lvalue/lvalue ref/const lvalue/const lvalue ref

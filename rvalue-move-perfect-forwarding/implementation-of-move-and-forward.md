@@ -1,6 +1,7 @@
 # implementation-of-move-and-forward
 
 #include <type_traits>
+
 template<typename T>
 typename std::remove_reference<T>::type&& move(T&& t)
  {

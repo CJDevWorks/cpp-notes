@@ -6,6 +6,7 @@ small and monomorphic (not polymorphic; no virtual methods; else
 sliced). If you cannot make them small and monomorphic, use the
 Bridge/PImpl idiom:
 
+```
 struct Mammal
  {
  Mammal(const std::string& sp)
@@ -79,3 +80,6 @@ if (unhappy != v.end()) println(std::distance(v.begin(), unhappy));
 else println("Everybody's happy!");
 
 }
+```
+
+

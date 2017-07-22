@@ -3,6 +3,14 @@
 - smart pointer to manage exclusive ownership of a resource.
 When the unique_ptr object goes out of scope, the underlying resource is deleted. By default, unique_ptr calls delete on the underlying resource, but you can give your custom deleter.
 
+- A non-null `std::unique_ptr` always owns what it points to.
+
+- Moving a `std::unique_ptr` transfers ownership from the source pointer to the destination pointer, setting the source-pointer to `null`.
+
+- Copying a `std::unique_ptr` is disallowed, because it would violate the exlusive-ownership semantics of `std::unique_ptr`. Two unique_ptrs could otherwise point to the same resource, each thinking it owned and should therefore destroy that resource.
+
+- `std::unique_ptr` is thus a *move-only type*.
+
 - Good example is a factory method
 
 - Note that the size of a unique_ptr class with default deleter is same as the size of raw pointer, so no penalty for using unique_ptr.

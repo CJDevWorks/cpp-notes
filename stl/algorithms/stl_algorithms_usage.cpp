@@ -12,10 +12,12 @@ void print(int i)
     std::cout << i << std::endl;
 }
 
+
+
 int main(int argc, char** argv)
 {
 
-        auto predicate = [&] (int* a, int* b) { return *a < *b; };
+        auto predicate = [] (int* a, int* b) { return *a < *b; };
         std::set<int*, decltype(predicate)> ptrs({
                                                          new int(5),
                                                          new int(-1),

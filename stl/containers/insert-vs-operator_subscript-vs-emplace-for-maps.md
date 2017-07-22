@@ -4,6 +4,8 @@ You should use std::map::insert rather than std::map::operator[] when
 inserting new items, because calling operator[] for insertion (not for
 update) means first default-constructing the value type, then assigning,
 whereas insert() results in only one direct construction and insertion.
+
+
 At the same time, updating is better with operator[] than insert,
 because operator[] will return a reference, whereas insert() would
 result in construction of a temporary object and an assignment.

@@ -12,8 +12,7 @@ public:
 
 std::string Foo::foo = "hehe";
 
-However, if the static member is CONST and INT, you can define it inside
-the scope of the class:
+However, if the static member is CONST and INT, you can define it inside the scope of the class - unless you are taking address.
 
 class Foo
  {

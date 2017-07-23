@@ -1,5 +1,7 @@
-Optimization Strategies that Bomb (ie that dont work)
+**Optimization Strategies that Bomb (ie that dont work)**
+
 1] Assuming some operations are faster than others. When it comes to optimizing, never ever assume anything. Benchmark everything. Use a profiler.
+
 2] Optimizing as you go. Big mistake. As software engineer Donald Knuth said, "premature optimization is the root of all evil." Optimization is one of the last steps of a project. Plan for it, but don't optimize too soon. If you do, you'll end up optimizing code that you either don't use or that doesn't need to be streamlined in the first place. Moreover, you deviate from the actual business logic you are writing code for.
 3] Worrying about performance before concentrating on code correctness. Write the code without optimizations first. Use the profiler to determine if it needs to be revised. Don't ignore performance issues; let performance issues guide your design, data structures, and algorithms
 

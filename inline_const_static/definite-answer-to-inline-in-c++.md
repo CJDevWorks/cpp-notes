@@ -4,12 +4,6 @@ inline is more like static or extern than a directive telling the
 compiler to inline your functions. extern, static, inline are linkage
 directives, used almost exclusively by the linker, not the compiler.
 
-It is said that inline hints to the compiler that you think the function
-should be inlined. That may have been true in 1998, but a decade later
-the compiler needs no such hints. Not to mention humans are usually
-wrong when it comes to optimizing code, so most compilers flat out
-ignore the 'hint'.
-
 static the variable/function name cannot be used in other compilation
 units. Linker needs to make sure it doesn't accidentally use a
 statically defined variable/function from another compilation unit.
@@ -22,9 +16,9 @@ inline this function will be defined in multiple compilation units,
 don't worry about it. The linker needs to make sure all compilation
 units use a single instance of the variable/function.
 
-Note: Generally declaring templates inline is pointless, as they have
+Note: **Generally declaring templates inline is pointless, as they have
 the linkage semantics of inline already. However, explicit
-specialization and instantiation of templates require inline to be used.
+specialization and instantiation of templates require inline to be used.**
 
 ------------------------------------------------------------------------
 
@@ -35,7 +29,7 @@ So specific answers to your questions:
 
 Only when you want the function to be defined in a header. More exactly
 only when the function's definition can show up in multiple compilation
-units. It's a good idea to define small (as in one liner) functions in
+units. It's a good idea to define small (as in one liner-3 liner) functions in
 the header file as it gives the compiler more information to work with
 while optimizing your code. It also increases compilation time.
 
@@ -53,9 +47,9 @@ the compiler doesn't have the option to inline code if it doesn't have
 the function definition. In maximally optimized code usually all private
 methods are inlined whether you ask for it or not.
 
-As an aside to prevent inlining in GCC
+**As an aside to prevent inlining in GCC
 use __attribute__(( noinline )) and in visual studio
-use __declspec(noinline).
+use __declspec(noinline).**
 
 -   Does it matter if an application is multithreaded when one writes
     'inline' for a function/method?
@@ -63,3 +57,4 @@ use __declspec(noinline).
 Multithreading doesn't affect inlining in any way.
 
 
+- Inlined code is more difficult to profile. If a non-inlined function is a bottleneck, it can be found by the profiler. But if the same function is inlined wherever it is called, its run-time is scattered among many functions and the bottleneck cannot be detected by the profiler.

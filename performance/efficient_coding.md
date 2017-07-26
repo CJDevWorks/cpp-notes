@@ -187,6 +187,46 @@ For numbers larger than 2.0 the gap between floats grows larger and if you compa
 
 Relative epsilon comparisons
 
+**Basic High performance rules**
+
+	* Test profile and retest
+
+	* Avoid memory allocation wherever possible and Especially avoid lots of small allocations.
+
+	* Double avoid small allocations that are then thrown away quickly.  This is the death nail for performance in  idiomatic C++, Java and idiomatic Scala is even worse.
+
+	* If you must allocate memory then allocate larger chunks and reuse them whenever possible.
+
+	* Avoid copying where possible.
+
+	* Sometimes it is faster to scan to end so you know length rather than adopt a dynamic or growing array or to use reallocate.   Sometimes it is dozens of times faster.   This is more true with modern file cache systems where re-reading a file stream from disk is at nearly RAM speed anyway.
+
+	* Use as little indirection as possible every pointer->pointer->pointer access has a cost and these really add up in tight loops.   It is even worse when the indirection causes an increase in level-1 CPU cache misses which can dramatically slow things down.  You may see me copy things into local variables  to avoid the indirect look-ups.     I actually learned this trick in Node.js and python code but found that it had a nearly linear impact in C as well.
+
+	* Think about how many registers your CPU has and size the method complexity wherever possible to maximize A) Keeping things loaded in the registers  B) keeping things loaded in level 1 CPU cache,  C) keeping things loaded in level 2 cache.   This will yield benefits even when you change CPU because every CPU always has a limited number of registers and level 1 cache.
+
+	* When possible keep your tight loops simple so the compiler can take advantage of the CPU vector operations that quite often run 10X faster.  The vector operation consideration is kind of new because the CPU’s have only gotten good at them over the last few years.  It has subtle impact because in the past we may add an extra bit of logic to a loop to avoid the loop overhead again with the new vector operations you may choose to use 3 methods that scan the array multiple times  because if you gain 10X in basic speed you can scan up to 9 times and still have a speed advantage.  The next generation of optimizers are likely to scan the same array simultaneously with multiple cores which will have a profound impact on net performance.
+
+	* CPU pre-fetching features favor arrays where the values to be operated on are sequentially stored in in contiguous memory.   When you use pointer->pointer->pointer style indirection in tight loops the pre-fetching features cannot deliver much benefit.    Complex pointer to pointer structures such as AVL trees can also effectively disable the benefits from pre-fetch.
+
+	* Think hard about how you can coerce what would naturally be a more complex structure such as AVL tree,  linked list or HASH as a simple linear array.    If you can twist the design to allow this it can run dozens of times faster.     This is an area where C++programmers especially those that started with Boost are at a disadvantage because they never learned a critical part of the engineering for speed process and many never learned how to think about their own clever data structures.  Some of them don’t even know they are doing anything wrong and will fight to the death to protect that worldview.
+
+	* Learn the semantics of the C restrict keyword and use it wherever possible.  It enables a set of compiler optimizations that make it more likely the compiler will choose to use the advanced CPU vector operations.
+
+	* Avoid re-computing things especially where the lookup cost Is less than 1/3 the compute cost.  This is offset by cost of RAM so it is a balancing act that requires testing.  Deeply structure object calls tend to be terrible culprits in this area.
+
+	* Avoid sorts wherever possible.   Sometimes a clever data structure with scan can eliminate a sort even for complex things like eliminating statistical outlives there are algorithmic options that can avoid the sort  and they are quite often dozens to hundreds of times faster.     Using a sorted data structure like a AVL or Pam array doesn't count as eliminating the sort because they just shift the cost to another part of the timing.  Sometimes this is unavoidable but many times is just lazy engineering.
+
+	* In finance work rather than thinking about an array of bar structures think about a bare set as composed of several arrays each representing a field such as one array for open,  one array for close, etc.  This allows a large number of design optimizations that fall out as the result of one decision.   You absolutely don’t want to use an array of bars where each bar is instantiated as it is read.  This one poor decision will slow things down by dozens of times and will also make it harder to support generic indicator computation code.   Many  of the open source finance and  commercial frameworks I have investigated make this devastatingly bad design decision.
+
+	* In the Stock and FOREX domain building  my data structures to accommodate incremental expansion so I can update things without re-computing entire columns has yielded substantial benefits.    This can add a little complexity but it is one of those things you absolutely have to build in early because it is a lot more expensive to add in latter.  This one seems to get missed by most of the commercial and open source  frameworks.
+
+
+
+
+
+
+
 
 
 

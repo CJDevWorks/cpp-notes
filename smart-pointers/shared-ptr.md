@@ -133,3 +133,5 @@ shared_ptr<T>::shared_ptr(T* ptr) {
 ```
 
 * `shared_ptr`s may seem expensive with dynamically allocated control-blcoks, arbitrarily large deleters and allocators, virtual function machinery (inside the control-block) and atomic reference-count manipulation, but if you cannot rely on `std::unique_ptr`, they are still worth it in most cases (no special deleters, allocaters etc.)
+
+- default constructor is constexpr, static shared_ptrs are initialized as part of static non-local initialization, before any dynamic non-local initialization begins. This makes it safe to use a shared_ptr in a constructor of any static object. This would enable static initialization for shared_ptr variables, eliminating another unfair advantage of raw pointers.

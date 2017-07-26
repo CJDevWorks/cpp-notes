@@ -1,6 +1,4 @@
-//
-// Created by Chandrajeet Singh on 17/7/17.
-//
+
 #include <utility>
 #include <iostream>
 
@@ -13,10 +11,9 @@ struct SampleClass{
     int print() {return mem;}
 };
 
+SampleClass fooNotReference() {return SampleClass(0);}
 SampleClass& fooReference() { static SampleClass value = 41; return value;}
 SampleClass&& fooRvalueReference() { static SampleClass value = 43; return std::move(value);}
-
-SampleClass fooNotReference() {return SampleClass(0);}
 
 int main(int argc, char * argv [])
 {

@@ -20,7 +20,7 @@ public:
               query(new SearchQuery(*query))
     { }
 
-    ~DirectorySearchResult() { delete query; } // owns resource.
+    ~DirectorySearchResult() { if (query != nullptr) delete query; } // owns resource.
 
     DirectorySearchResult(DirectorySearchResult const& other)
     :   files(other.files)

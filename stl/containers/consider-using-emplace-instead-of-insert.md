@@ -32,7 +32,7 @@ I.e. it simply passes all the arguments on to the actual object being
 constructed in the memory of the vector.
 
 Simple test, given this class:
-
+```
 class X
  {
 public:
@@ -43,24 +43,22 @@ X& operator=(const X& other) { std::cout << "Assign\n"; return *this; }
  ~X() { std::cout << "Destruct\n"; }
 
 };
+```
 
 And a vector of x:
 
 std::vector<X> v;
 
-push_back:
+**push_back:**
 
 // Constructor
 // Move
-
 // Destruct
-
 v.push_back(5);
 
-emplace_back:
+**emplace_back:**
 
 // Constructor
-
 v.emplace_back(5);
 
 Much better! This also works for emplace_front and emplace instead of
@@ -75,11 +73,13 @@ they are faster (else _equally_ fast):
     emplace at a position where there already exists an element,
     move-assignment will take place and this requires construction of a
     temporary object, which would have also been created via insert.
+
 -   The argument type(s) differ from the type held by the container.
     This is where emplacement really shines, since the arguments can be
     passed to the constructor of the object in the container directly.
     If you pass an object of the type, it will be just as fast as
     insertion (same operation then).
+
 -   The container is unlikely to reject the value as a duplicate. For
     insertion, a temporary object would be created and compared against
     nodes in the container. If none match (no duplicate), a new node is
@@ -92,8 +92,8 @@ they are faster (else _equally_ fast):
     construction + one destruction, just like when you insert and there
     is a duplicate. So in that case it would not be faster.
 
-However, you have to be careful with resource management and
-emplacement. Imagine you have a container of shared_ptrs:
+**However, you have to be careful with resource management and
+emplacement**. Imagine you have a container of shared_ptrs:
 
 std::list<std::shared_ptr<int>> l;
 
@@ -111,14 +111,15 @@ object(arg)) and not copy-initialization (Object object = arg), meaning
 you can pass arguments to explicit constructors which wouldn’t work with
 push_back:
 
+```
 std::list<std::unique_ptr<int>> l;
-
 l.push_back(new int(5)); // no matching constructor -> explicit
-
 l.push_back(std::make_unique<int>(5)); // would need this
+```
 
 But with emplacement it would work:
 
+```
 l.emplace_back(new int(5));
-
+```
 

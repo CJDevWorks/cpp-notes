@@ -24,12 +24,9 @@ std::move(T&& a) noexcept
 ```
 
 ### Why you need it
-The functions that accept rvalue reference parameters (including move constructors, move assignment operators, and
-regular member functions such as std::vector::push_back) are selected, by overload resolution, when called with
-rvalue arguments (either prvalues such as a temporary objects or xvalues such as the one produced by std::move).
 
-Names of rvalue reference variables are lvalues and have to be converted to xvalues to be bound to the function
-overloads that accept rvalue reference parameters, which is why move constructors and move assignment operators
-typically use std::move:
+- The functions that accept rvalue reference parameters (including move constructors, move assignment operators, and regular member functions such as std::vector::push_back) are selected, by overload resolution, when called with rvalue arguments (either prvalues such as a temporary objects or xvalues such as the one produced by std::move).
 
-Exception in case of : universal reference use std::forward ;
+- Names of rvalue reference variables are lvalues and have to be converted to xvalues to be bound to the function overloads that accept rvalue reference parameters, which is why move constructors and move assignment operators typically use std::move:
+
+- Exception in case of : universal reference use std::forward ;

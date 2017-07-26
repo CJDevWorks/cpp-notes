@@ -56,15 +56,18 @@ There are a few attributes of constexpr functions, which differ between C++11 an
 This is how you could construct a _pow(base, exponent)_ function in
 C++11, with its stricter requirements:
 
+```
 template<typename T, typename U>
 constexpr int power(const T& base, const U& exponent) noexcept
  {
 return exponent ? base * power(base, exponent - 1) : 1;
 
 }
+```
 
 And this is how you could do it, more expressively (arguably), in C++14:
 
+```
 template<typename T, typename U>
 constexpr auto power(const T& base, const U& exponent) noexcept
  {
@@ -73,6 +76,7 @@ for (std::size_t i = 0; i < exponent; ++i) result *= base;
 return result;
 
 }
+```
 
 **`Also user-defined types can be made LiteralType and used at
 compile-time, when their constructor is declared constexpr`**:

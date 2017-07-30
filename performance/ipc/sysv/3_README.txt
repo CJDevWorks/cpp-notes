@@ -1,6 +1,7 @@
 Structure of Sys V objects in Kernel.
 Each of the structures of msg q, semaphore and shared memory are different in kernel (msgid_ds, semid_ds and shmid_ds).
 However, all these 3 have a common substructure "ipc_perm"
+
 structure ipc_perm {
     key_t __key;  // key associated with the IPC object
     uid_t uid;   // owner of this IPC object. Can be used via call to msgctl(), semctl() or shmctl()

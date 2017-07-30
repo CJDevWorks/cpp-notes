@@ -76,6 +76,6 @@ code is as fast as SIMD based code. However, such optimizations are not always p
 ALIGNMENT
 ==========
 
-Data to be moved in and out of XMM registers must be 16 byte aligned. Otherwise if the data is not aligned, then
-more costly unaligned memory movement will be needed.
+Data to be moved in and out of XMM registers must be 16 byte aligned. Otherwise if the data is not aligned, then more costly unaligned memory movement will be needed.
+
 Intel optimization manual says: "Data must be 16-byte aligned when loading to and storing from the 128-bit XMM registers used by SSE/SSE2/SSE3/SSSE3. This must be done to avoid severe performance penalties."

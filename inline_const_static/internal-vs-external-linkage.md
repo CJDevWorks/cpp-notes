@@ -208,3 +208,33 @@ static int variable = 0;
 * http://stackoverflow.com/questions/154469/unnamed-anonymous-namespaces-vs-static-functions
 * http://stackoverflow.com/questions/4726570/deprecation-of-the-static-keyword-no-more
 * http://www.geeksforgeeks.org/understanding-extern-keyword-in-c/
+
+
+// Foo.cpp
+const int Foo = 99;
+
+// Main.cpp
+const int Foo = 99;
+const variable at namespace scope has internal linkage. So they're basically two different variables. There is no redefinition.
+
+From @David's comment, 3.5/3 [basic.link]:
+
+A name having namespace scope (3.3.5) has internal linkage if it is the name of
+— an object, reference, function or function template that is explicitly declared static or,
+— an object or reference that is explicitly declared const and neither explicitly declared extern nor previously declared to have external linkage; or
+— a data member of an anonymous union.
+In the second case, you should be doing this (correct way):
+
+//Foo.h
+extern const int Foo; //use extern here to make it have external linkage!
+
+// Foo.cpp
+#include "Foo.h"
+const int Foo = 99; //actual definition goes here
+
+// Main.cpp
+#include "Foo.h"
+int main()
+{
+   cout << Foo << endl;
+}

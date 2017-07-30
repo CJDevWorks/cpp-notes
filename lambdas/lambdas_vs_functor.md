@@ -14,3 +14,6 @@ When to prefer functors:
 3. need to refer to the functor as a type. For example, to pass it as a template parameter.
 4. (related) can give a meaningful and generally useful name to the type (as opposed to the instance).
 5. find that the logic can be written cleaner when split up into sub-functions. In a lambda, we have to write everything into a single function.
+
+##### creating a collection
+for lambdas not possible to define. use std::function (std::vector<std::function<>> . push back with lambda is OK)

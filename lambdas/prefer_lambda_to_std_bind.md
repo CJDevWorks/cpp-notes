@@ -1,4 +1,12 @@
 
+**When lambda should be used**
+
+1. Its more performant. How?
+
+
+
+
+**When bind Can be used in place of lambda**
 
 // move objects >> cant be done in lambda in C++11, in C++14 it can be done via init capture
 

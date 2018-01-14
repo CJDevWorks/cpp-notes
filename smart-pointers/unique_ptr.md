@@ -96,3 +96,4 @@ Unique_Ptr_2 p4( "Just some random text", MyDeleter( [](char *){} ));
 
 - Part of the reason is that shared_ptr needs an explicit control block anyway for the ref count and sticking a deleter in isn't that big a deal on top. unique_ptr however doesn't require any additional overhead, and adding it would be unpopular- it's supposed to be a zero-overhead class. unique_ptr is supposed to be static.
 
+- Question : for LinkedList implementation is unique_ptr good option for next.

@@ -5,6 +5,11 @@ because YOU CAN ONLY TAKE THE ADDRESS OF A STATIC MEMBER IF IT HAS AN
 OUT-OF-CLASS DEFINITION. The emphasis here is on “take the address of”.
 So if you declare static const integral types inline, the linker will
 only not complain if you don’t ever take the address of the value, i.e.
-don’t pass it by (const-)reference to a method for example. If you only
+don’t pass it by (const-)reference to a method
+
+for example. If you only
 use it as a constant or pass it by value, the code will compile and link
 just fine.
+
+
+Declaring a static data member inline doesn't define it, even if it has an initializer.

@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_notes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type-deduction_type_deduction">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/type-deduction_type_deduction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 type-deduction_type_deduction"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type-deduction_type_deduction/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/type-deduction_type_deduction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 type-deduction_type_deduction/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type-deduction_decltype_auto">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/type-deduction_decltype_auto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 type-deduction_decltype_auto"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type-deduction_decltype_auto/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/type-deduction_decltype_auto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 type-deduction_decltype_auto/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threading_lock_free_queue">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/threading_lock_free_queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 threading_lock_free_queue"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threading_lock_free_queue/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/threading_lock_free_queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 threading_lock_free_queue/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threading_bounded_producer_consumer_with_exit">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/threading_bounded_producer_consumer_with_exit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 threading_bounded_producer_consumer_with_exit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threading_bounded_producer_consumer_with_exit/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/threading_bounded_producer_consumer_with_exit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 threading_bounded_producer_consumer_with_exit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_var_template_tuple_algorithms">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_var_template_tuple_algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_var_template_tuple_algorithms"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_var_template_tuple_algorithms/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_var_template_tuple_algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_var_template_tuple_algorithms/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_mpl_tricks">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_mpl_tricks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_mpl_tricks"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_mpl_tricks/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_mpl_tricks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_mpl_tricks/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="system_call_signal_handling">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/system_call_signal_handling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 system_call_signal_handling"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="system_call_signal_handling/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/system_call_signal_handling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 system_call_signal_handling/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_static_assert_typelist">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_static_assert_typelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_static_assert_typelist"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_static_assert_typelist/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_static_assert_typelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_static_assert_typelist/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart-pointers_smart_ptr_usage">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/smart-pointers_smart_ptr_usage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 smart-pointers_smart_ptr_usage"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart-pointers_smart_ptr_usage/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/smart-pointers_smart_ptr_usage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 smart-pointers_smart_ptr_usage/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart-pointers_my_smart_ptr">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/smart-pointers_my_smart_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 smart-pointers_my_smart_ptr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart-pointers_my_smart_ptr/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/smart-pointers_my_smart_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 smart-pointers_my_smart_ptr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rvalue-move-perfect-forwarding_std_forward">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/rvalue-move-perfect-forwarding_std_forward" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rvalue-move-perfect-forwarding_std_forward"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rvalue-move-perfect-forwarding_std_forward/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/rvalue-move-perfect-forwarding_std_forward" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rvalue-move-perfect-forwarding_std_forward/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointers_pointers_edge_cases">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/pointers_pointers_edge_cases" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_pointers_edge_cases"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointers_pointers_edge_cases/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/pointers_pointers_edge_cases" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_pointers_edge_cases/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointers_my_std_decay_impl">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/pointers_my_std_decay_impl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_my_std_decay_impl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointers_my_std_decay_impl/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/pointers_my_std_decay_impl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers_my_std_decay_impl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="system_call_set_terminate_unexpected_new_handler">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/system_call_set_terminate_unexpected_new_handler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 system_call_set_terminate_unexpected_new_handler"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="system_call_set_terminate_unexpected_new_handler/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/system_call_set_terminate_unexpected_new_handler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 system_call_set_terminate_unexpected_new_handler/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functors_my_functor_adapter">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/functors_my_functor_adapter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 functors_my_functor_adapter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functors_my_functor_adapter/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/functors_my_functor_adapter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 functors_my_functor_adapter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threading_concurrent_hash_map">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/threading_concurrent_hash_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 threading_concurrent_hash_map"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threading_concurrent_hash_map/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/threading_concurrent_hash_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 threading_concurrent_hash_map/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inline_const_static_examples_static_const_inline">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/inline_const_static_examples_static_const_inline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 inline_const_static_examples_static_const_inline"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inline_const_static_examples_static_const_inline/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/inline_const_static_examples_static_const_inline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 inline_const_static_examples_static_const_inline/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functors_functors_examples">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/functors_functors_examples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 functors_functors_examples"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functors_functors_examples/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/functors_functors_examples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 functors_functors_examples/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="casting_casting_usage">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/casting_casting_usage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 casting_casting_usage"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="casting_casting_usage/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/casting_casting_usage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 casting_casting_usage/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exceptions_user_define_exception_error_category">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/exceptions_user_define_exception_error_category" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 exceptions_user_define_exception_error_category"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exceptions_user_define_exception_error_category/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/exceptions_user_define_exception_error_category" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 exceptions_user_define_exception_error_category/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_const_ref_mem_mtx">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_const_ref_mem_mtx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_const_ref_mem_mtx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_const_ref_mem_mtx/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_const_ref_mem_mtx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_const_ref_mem_mtx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common_tasks">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/common_tasks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 common_tasks"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common_tasks/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/common_tasks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 common_tasks/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_my_unique_ptr">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_my_unique_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_my_unique_ptr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_my_unique_ptr/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_my_unique_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_my_unique_ptr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rvalue-move-perfect-forwarding_universal_reference_alternatives_perfect_fwd_failures">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/rvalue-move-perfect-forwarding_universal_reference_alternatives_perfect_fwd_failures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rvalue-move-perfect-forwarding_universal_reference_alternatives_perfect_fwd_failures"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rvalue-move-perfect-forwarding_universal_reference_alternatives_perfect_fwd_failures/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/rvalue-move-perfect-forwarding_universal_reference_alternatives_perfect_fwd_failures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rvalue-move-perfect-forwarding_universal_reference_alternatives_perfect_fwd_failures/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rvalue-move-perfect-forwarding_rvalue_move_forward_example">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/rvalue-move-perfect-forwarding_rvalue_move_forward_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rvalue-move-perfect-forwarding_rvalue_move_forward_example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rvalue-move-perfect-forwarding_rvalue_move_forward_example/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/rvalue-move-perfect-forwarding_rvalue_move_forward_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rvalue-move-perfect-forwarding_rvalue_move_forward_example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_my_raii">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_my_raii" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_my_raii"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_my_raii/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_my_raii" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_my_raii/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_explicit_use">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_explicit_use" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_explicit_use"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_explicit_use/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_explicit_use" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_explicit_use/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_SFINAE_partial_specialization">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_SFINAE_partial_specialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_SFINAE_partial_specialization"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_SFINAE_partial_specialization/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_SFINAE_partial_specialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_SFINAE_partial_specialization/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type_erasure">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/type_erasure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 type_erasure"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type_erasure/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/type_erasure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 type_erasure/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="performance_cpu_affinity">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/performance_cpu_affinity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 performance_cpu_affinity"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="performance_cpu_affinity/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/performance_cpu_affinity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 performance_cpu_affinity/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_design_pImpl">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_design_pImpl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_design_pImpl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_design_pImpl/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_design_pImpl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_design_pImpl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_inheritence_virtual_base_crtp">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_inheritence_virtual_base_crtp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_inheritence_virtual_base_crtp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_inheritence_virtual_base_crtp/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_inheritence_virtual_base_crtp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_inheritence_virtual_base_crtp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_my_container_class">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_my_container_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_my_container_class"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_my_container_class/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_my_container_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_my_container_class/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operator_operator_overloading">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/operator_operator_overloading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 operator_operator_overloading"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operator_operator_overloading/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/operator_operator_overloading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 operator_operator_overloading/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_design_rule5">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_design_rule5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_design_rule5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_design_class_design_rule5/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/class_design_class_design_rule5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_design_class_design_rule5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lambdas_lambdas_examples">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/lambdas_lambdas_examples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lambdas_lambdas_examples"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lambdas_lambdas_examples/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/lambdas_lambdas_examples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lambdas_lambdas_examples/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memory_my_allocators">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/memory_my_allocators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 memory_my_allocators"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memory_my_allocators/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/memory_my_allocators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 memory_my_allocators/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memory_custom_new_delete">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/memory_custom_new_delete" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 memory_custom_new_delete"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memory_custom_new_delete/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/memory_custom_new_delete" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 memory_custom_new_delete/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_my_iterator_traits">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_my_iterator_traits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_my_iterator_traits"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates_my_iterator_traits/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/templates_my_iterator_traits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 templates_my_iterator_traits/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constexpr_constexp_var_fun_const_class_scenarios">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/constexpr_constexp_var_fun_const_class_scenarios" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 constexpr_constexp_var_fun_const_class_scenarios"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constexpr_constexp_var_fun_const_class_scenarios/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/constexpr_constexp_var_fun_const_class_scenarios" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 constexpr_constexp_var_fun_const_class_scenarios/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_type_initialize_different_type_initialization">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/data_type_initialize_different_type_initialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_type_initialize_different_type_initialization"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_type_initialize_different_type_initialization/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/data_type_initialize_different_type_initialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_type_initialize_different_type_initialization/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_optional">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/my_optional" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_optional"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_optional/fast">
+				<Option output="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin/my_optional" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_optional/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/casting/casting_usage.cpp">
+			<Option target="casting_casting_usage"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/class_const_ref_mem_mtx.cpp">
+			<Option target="class_design_class_const_ref_mem_mtx"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/class_design_pImpl.cpp">
+			<Option target="class_design_class_design_pImpl"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/class_design_rule5.cpp">
+			<Option target="class_design_class_design_rule5"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/class_inheritence_virtual_base_crtp.cpp">
+			<Option target="class_design_class_inheritence_virtual_base_crtp"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/explicit_use.cpp">
+			<Option target="class_design_explicit_use"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/my_container_class.cpp">
+			<Option target="class_design_my_container_class"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/my_raii.cpp">
+			<Option target="class_design_my_raii"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/class_design/my_unique_ptr.cpp">
+			<Option target="class_design_my_unique_ptr"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/common_tasks.cpp">
+			<Option target="common_tasks"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/constexpr/constexp_var_fun_const_class_scenarios.cpp">
+			<Option target="constexpr_constexp_var_fun_const_class_scenarios"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/data_type_initialize/different_type_initialization.cpp">
+			<Option target="data_type_initialize_different_type_initialization"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/exceptions/user_define_exception_error_category.cpp">
+			<Option target="exceptions_user_define_exception_error_category"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/functors/functors_examples.cpp">
+			<Option target="functors_functors_examples"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/functors/my_functor_adapter.cpp">
+			<Option target="functors_my_functor_adapter"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/inline_const_static/examples_static_const_inline.cpp">
+			<Option target="inline_const_static_examples_static_const_inline"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/lambdas/lambdas_examples.cpp">
+			<Option target="lambdas_lambdas_examples"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/memory/custom_new_delete.cpp">
+			<Option target="memory_custom_new_delete"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/memory/my_allocators.cpp">
+			<Option target="memory_my_allocators"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/my_optional.cpp">
+			<Option target="my_optional"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/operator/operator_overloading.cpp">
+			<Option target="operator_operator_overloading"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/performance/cpu_affinity.cpp">
+			<Option target="performance_cpu_affinity"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/pointers/my_std_decay_impl.cpp">
+			<Option target="pointers_my_std_decay_impl"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/pointers/pointers_edge_cases.cpp">
+			<Option target="pointers_pointers_edge_cases"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/rvalue-move-perfect-forwarding/rvalue_move_forward_example.cpp">
+			<Option target="rvalue-move-perfect-forwarding_rvalue_move_forward_example"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/rvalue-move-perfect-forwarding/std_forward.cpp">
+			<Option target="rvalue-move-perfect-forwarding_std_forward"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/rvalue-move-perfect-forwarding/universal_reference_alternatives_perfect_fwd_failures.cpp">
+			<Option target="rvalue-move-perfect-forwarding_universal_reference_alternatives_perfect_fwd_failures"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/smart-pointers/my_smart_ptr.cpp">
+			<Option target="smart-pointers_my_smart_ptr"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/smart-pointers/smart_ptr_usage.cpp">
+			<Option target="smart-pointers_smart_ptr_usage"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/system_call/set_terminate_unexpected_new_handler.cpp">
+			<Option target="system_call_set_terminate_unexpected_new_handler"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/system_call/signal_handling.cpp">
+			<Option target="system_call_signal_handling"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/templates/SFINAE_partial_specialization.cpp">
+			<Option target="templates_SFINAE_partial_specialization"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/templates/mpl_tricks.cpp">
+			<Option target="templates_mpl_tricks"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/templates/my_iterator_traits.cpp">
+			<Option target="templates_my_iterator_traits"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/templates/static_assert_typelist.cpp">
+			<Option target="templates_static_assert_typelist"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/templates/var_template_tuple_algorithms.cpp">
+			<Option target="templates_var_template_tuple_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/threading/bounded_producer_consumer_with_exit.cpp">
+			<Option target="threading_bounded_producer_consumer_with_exit"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/threading/concurrent_hash_map.cpp">
+			<Option target="threading_concurrent_hash_map"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/threading/lock_free_queue.cpp">
+			<Option target="threading_lock_free_queue"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/type-deduction/decltype_auto.cpp">
+			<Option target="type-deduction_decltype_auto"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/type-deduction/type_deduction.cpp">
+			<Option target="type-deduction_type_deduction"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/type_erasure.cpp">
+			<Option target="type_erasure"/>
+		</Unit>
+		<Unit filename="/Users/chandrajeetsingh/Documents/C++/CppExamplesClassicBooks/cpp-notes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
